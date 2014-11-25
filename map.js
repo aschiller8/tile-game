@@ -15,7 +15,7 @@ var occupants = [
     [undefined, undefined, undefined, undefined],
     [undefined, key, undefined, undefined],
     [undefined, undefined, cat_girl, undefined],
-    [closed_chest, undefined, undefined, undefined],
+    [chest_closed, undefined, undefined, undefined],
 ];
 var protagonist = {
     element: cat_girl,
