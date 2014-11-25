@@ -12,7 +12,7 @@ var block_z_height = 39;
 // Characters
 
 var cat_girl = document.getElementById('cat-girl');
-var princess = document.getElementByID('princess-girl')
+var princess = document.getElementByID('princess-girl');
 
 // Objects
 
