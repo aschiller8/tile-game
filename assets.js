@@ -16,7 +16,6 @@ var cat_girl = document.getElementById('cat-girl');
 // Objects
 
 var key = document.getElementById('key');
-var closed_chest = document.getElementById('closed-chest');
 
 // Terrain
 
