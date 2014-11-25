@@ -14,7 +14,7 @@ var terrain = [
 var occupants = [
     [undefined, undefined, undefined, undefined],
     [undefined, key, undefined, undefined],
-    [undefined, undefined, cat_girl, undefined],
+    [closed_chest, undefined, cat_girl, undefined],
     [undefined, undefined, undefined, undefined],
 ];
 var protagonist = {
