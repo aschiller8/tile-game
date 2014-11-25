@@ -3,8 +3,8 @@
 
 // Initial map
 
-var row_count = 4;
-var column_count = 4;
+var row_count = 5;
+var column_count = 5;
 var terrain = [
     [[grass], [grass], [grass], [grass]],
     [[grass], [grass], [grass, wood], [grass]],
@@ -12,10 +12,10 @@ var terrain = [
     [[grass], [grass], [grass], [grass]],
 ];
 var occupants = [
-    [undefined, undefined, undefined, undefined],
-    [undefined, key, undefined, undefined],
-    [undefined, undefined, cat_girl, undefined],
-    [chest_closed, undefined, undefined, undefined],
+    [undefined, undefined, undefined, undefined, undefined],
+    [undefined, key, undefined, undefined, undefined],
+    [undefined, undefined, cat_girl, undefined, undefined],
+    [chest_closed, undefined, undefined, undefined, undefined],
 ];
 var protagonist = {
     element: cat_girl,
