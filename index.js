@@ -31,11 +31,14 @@ function key_pressed_down(event) {
             protagonist.y = protagonist.y + 1;
         }
     }
+    //Calls "Death" function
     getoutofmyBubble();
     
     occupants[protagonist.y][protagonist.x] = protagonist.element;
     render();
 }
+//Started with parrallel subproblems in locating the protagonist (given by original code) and finding the enemy (user created code). 
+
 function getoutofmyBubble () {
 	if (protagonist.x === enemy.x && protagonist.y === enemy.y) {
 		window.alert("Game Over");

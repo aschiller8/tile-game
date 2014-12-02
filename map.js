@@ -82,7 +82,8 @@ function is_terrain(x, y, z) {
     }
     return terrain_cell[z] !== undefined;
 }
-//Here is an alternative subproblem restricting the movement over objects such as boxes.
+//Here is an alternative & quotient subproblems restricting the movement over objects such as boxes.
+//This is also an example of sequential subproblems. get_terrain_cell is supplied to the variable terrain_cell, which is then used in the function as a seperate problem.
 
 function userallowedMovement (x,y){
 	var terrain_cell = get_terrain_cell(x,y);
