@@ -12,22 +12,22 @@ function key_pressed_down(event) {
     occupants[protagonist.y][protagonist.x] = undefined;
     
     if (event.keyCode === left_arrow_key) {
-        if (isrestrictedMovement(protagonist.x - 1, protagonist.y)) {
+        if (userallowedMovement (protagonist.x - 1, protagonist.y)) {
             protagonist.x = protagonist.x - 1;
         }
     }
     if (event.keyCode === right_arrow_key) {
-        if (is_in_bounds(protagonist.x + 1, protagonist.y)) {
+        if (userallowedMovement(protagonist.x + 1, protagonist.y)) {
             protagonist.x = protagonist.x + 1;
         }
     }
     if (event.keyCode === up_arrow_key) {
-        if (is_in_bounds(protagonist.x, protagonist.y - 1)) {
+        if (userallowedMovement(protagonist.x, protagonist.y - 1)) {
             protagonist.y = protagonist.y - 1;
         }
     }
     if (event.keyCode === down_arrow_key) {
-        if (is_in_bounds(protagonist.x, protagonist.y + 1)) {
+        if (userallowedMovement(protagonist.x, protagonist.y + 1)) {
             protagonist.y = protagonist.y + 1;
         }
     }
