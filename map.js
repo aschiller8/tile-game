@@ -3,19 +3,19 @@
 
 // Initial map
 
-var row_count = 5;
-var column_count = 5;
+var row_count = 10;
+var column_count = 10;
 var terrain = [
-    [[grass], [grass], [grass], [grass], [grass]],
-    [[grass], [grass], [grass, wood], [grass], [grass]],
-    [[grass], [grass, plain], [grass], [grass], [grass]],
-    [[grass], [grass], [grass], [grass], [grass]],
+    [[grass], [grass], [grass], [grass], [grass], [plain], [plain], [plain], [plain], [plain]],
+    [[grass], [grass], [grass, wood], [grass], [grass], [plain], [plain], [plain], [plain], [plain]],
+    [[grass], [grass, plain], [grass], [grass], [grass], [plain], [plain], [plain], [plain], [plain]],
+    [[grass], [grass], [grass], [grass], [grass], [plain], [plain], [plain], [plain], [plain]],
 ];
 var occupants = [
-    [undefined, undefined, undefined, undefined, undefined],
-    [undefined, key, undefined, undefined, undefined],
-    [undefined, undefined, cat_girl, undefined, undefined],
-    [chest_closed, undefined, undefined, undefined, undefined],
+    [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [undefined, key, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [chest_closed, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
 ];
 var protagonist = {
     element: cat_girl,
