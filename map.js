@@ -83,7 +83,7 @@ function isrestrictedMovement (x,y){
 		if (terrain_cell === undefined) {
 			return true;
 		}
-		if (terrain_cell.lenght>2) {
+		if (terrain_cell.length > 2) {
 			return true;
 		}
 		return false;
