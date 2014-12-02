@@ -34,5 +34,9 @@ function key_pressed_down(event) {
     occupants[protagonist.y][protagonist.x] = protagonist.element;
     render();
 }
+function findProtagonist () {
+	
+	
+}
 
 document.addEventListener('keydown', key_pressed_down);
