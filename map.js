@@ -7,7 +7,7 @@ var row_count = 20;
 var column_count = 20;
 var terrain = [
     [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+    [[grass], [grass], [grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
     [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
     [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
     [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
@@ -76,4 +76,15 @@ function is_terrain(x, y, z) {
         return false;
     }
     return terrain_cell[z] !== undefined;
+}
+
+function isrestrictedMovement (x,y){
+	var terrain_cell = get_terrain_cell(x,y);
+		if (terrain_cell === undefined) {
+			return true;
+		}
+		if (terrain_cell.lenght>2) {
+			return true;
+		}
+		return false;
 }
