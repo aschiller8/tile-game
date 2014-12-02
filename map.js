@@ -6,10 +6,10 @@
 var row_count = 5;
 var column_count = 5;
 var terrain = [
-    [[grass], [grass], [grass], [grass]],
-    [[grass], [grass], [grass, wood], [grass]],
-    [[grass], [grass, plain], [grass], [grass]],
-    [[grass], [grass], [grass], [grass]],
+    [[grass], [grass], [grass], [grass], [grass]],
+    [[grass], [grass], [grass, wood], [grass], [grass]],
+    [[grass], [grass, plain], [grass], [grass], [grass]],
+    [[grass], [grass], [grass], [grass], [grass]],
 ];
 var occupants = [
     [undefined, undefined, undefined, undefined, undefined],
