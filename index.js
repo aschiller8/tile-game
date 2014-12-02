@@ -34,8 +34,10 @@ function key_pressed_down(event) {
     occupants[protagonist.y][protagonist.x] = protagonist.element;
     render();
 }
-function findProtagonist () {
-	
+function getoutofmyBubble () {
+	if (protagonist.x === enemy.x && protagonist.y === enemy.y) {
+		window.alert("Game Over");
+	}
 	
 }
 
