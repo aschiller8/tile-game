@@ -79,13 +79,13 @@ function is_terrain(x, y, z) {
 }
 //Here is an alternative subproblem restricting the movement over objects such as boxes.
 
-function isrestrictedMovement (x,y){
+function userallowedMovement (x,y){
 	var terrain_cell = get_terrain_cell(x,y);
 		if (terrain_cell === undefined) {
-			return true;
+			return false;
 		}
 		if (terrain_cell.length >= 2) {
-			return true;
+			return false;
 		}
-		return false;
+		return true;
 }

@@ -10,8 +10,9 @@ var down_arrow_key = 40;
 
 function key_pressed_down(event) {
     occupants[protagonist.y][protagonist.x] = undefined;
+    
     if (event.keyCode === left_arrow_key) {
-        if (is_in_bounds(protagonist.x - 1, protagonist.y)) {
+        if (isrestrictedMovement(protagonist.x - 1, protagonist.y)) {
             protagonist.x = protagonist.x - 1;
         }
     }
