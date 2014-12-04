@@ -6,16 +6,16 @@
 var row_count = 10;
 var column_count = 10;
 var terrain = [
-    [[grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], 
-    [[grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], 
-    [[grass], [grass], [grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass],
-    [[grass, plain], [grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass], [grass],
-    [[grass], [grass], [grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass],
-    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass],
-    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass],  
-    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass],  
-    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], 
-    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], 
+    [[grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]], 
+    [[grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]], 
+    [[grass], [grass], [grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass]],
+    [[grass, plain], [grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+    [[grass], [grass], [grass], [grass, plain], [grass], [grass], [grass], [grass], [grass], [grass]],
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],  
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],  
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]], 
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]], 
 ];
 var occupants = [
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
