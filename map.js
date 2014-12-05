@@ -39,11 +39,7 @@ var enemy = {
 	x:5,
 	y:5,
 	};
-var enemy = {
-	element: enemy_bug,
-	x:3,
-	y:2,
-	};
+
 
 // Map utilities
 
