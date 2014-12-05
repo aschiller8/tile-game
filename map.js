@@ -36,8 +36,8 @@ var protagonist = {
 };
 var enemy = {
 	element: enemy_bug,
-	x:5,1
-	y:5,3
+	x:5,1,
+	y:5,3,
 	};
 
 // Map utilities
