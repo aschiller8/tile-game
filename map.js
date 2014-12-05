@@ -18,7 +18,7 @@ var terrain = [
     [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]], 
 ];
 var occupants = [
-    [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [key, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
