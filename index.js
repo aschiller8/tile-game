@@ -41,31 +41,31 @@ function key_pressed_down(event) {
 
 function getoutofmyBubble () {
 	if (protagonist.x ===   enemy1.x && protagonist.y ===   enemy1.y) {
-		window.alert("Game Over");
+		window.alert("Game Over. Refresh browser and try again!");
 	}
 	if (protagonist.x ===   enemy2.x && protagonist.y ===   enemy2.y) {
-		window.alert("Game Over");
+		window.alert("Game Over. Refresh browser and try again!");
 	}
 	if (protagonist.x ===   enemy3.x && protagonist.y ===   enemy3.y) {
-		window.alert("Game Over");
+		window.alert("Game Over. Refresh browser and try again!");
 	}
 	if (protagonist.x ===   enemy4.x && protagonist.y ===   enemy4.y) {
-		window.alert("Game Over");
+		window.alert("Game Over. Refresh browser and try again!");
 	}
 	if (protagonist.x ===   enemy5.x && protagonist.y ===   enemy5.y) {
-		window.alert("Game Over");
+		window.alert("Game Over. Refresh browser and try again!");
 	}
 	if (protagonist.x ===   enemy6.x && protagonist.y ===   enemy6.y) {
-		window.alert("Game Over");
+		window.alert("Game Over. Refresh browser and try again!");
 	}
 	if (protagonist.x ===   enemy7.x && protagonist.y ===   enemy7.y) {
-		window.alert("Game Over");
+		window.alert("Game Over. Refresh browser and try again!");
 	}
 	if (protagonist.x ===   enemy8.x && protagonist.y ===   enemy8.y) {
-		window.alert("Game Over");
+		window.alert("Game Over. Refresh browser and try again!");
 	}
 	if (protagonist.x ===   enemy9.x && protagonist.y ===   enemy9.y) {
-		window.alert("Game Over");
+		window.alert("Game Over. Refresh borwser and try again!");
 	}
 	
 }
