@@ -24,7 +24,7 @@ var occupants = [
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, enemy_bug, undefined, undefined, undefined, undefined], 
-    [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [key, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, chest_closed],
