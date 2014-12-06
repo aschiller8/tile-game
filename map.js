@@ -23,10 +23,10 @@ var occupants = [
     [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
-    [undefined, undefined, undefined, undefined, undefined, enemy_bug, undefined, undefined, undefined, undefined], 
+    [undefined, undefined, key, undefined, undefined, enemy_bug, undefined, undefined, undefined, undefined], 
     [key, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
-    [enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [enemy_bug, undefined, undefined, key, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, chest_closed],
 ];
 var protagonist = {
