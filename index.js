@@ -49,6 +49,24 @@ function getoutofmyBubble () {
 	if (protagonist.x ===   enemy3.x && protagonist.y ===   enemy3.y) {
 		window.alert("Game Over");
 	}
+	if (protagonist.x ===   enemy4.x && protagonist.y ===   enemy4.y) {
+		window.alert("Game Over");
+	}
+	if (protagonist.x ===   enemy5.x && protagonist.y ===   enemy5.y) {
+		window.alert("Game Over");
+	}
+	if (protagonist.x ===   enemy6.x && protagonist.y ===   enemy6.y) {
+		window.alert("Game Over");
+	}
+	if (protagonist.x ===   enemy7.x && protagonist.y ===   enemy7.y) {
+		window.alert("Game Over");
+	}
+	if (protagonist.x ===   enemy8.x && protagonist.y ===   enemy8.y) {
+		window.alert("Game Over");
+	}
+	if (protagonist.x ===   enemy9.x && protagonist.y ===   enemy9.y) {
+		window.alert("Game Over");
+	}
 	
 }
 
