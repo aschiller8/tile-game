@@ -34,47 +34,47 @@ var protagonist = {
     x: 2,
     y: 2,
 };
-var enemy = {
+var enemy1 = {
 	element: enemy_bug,
 	x:5,
 	y:5,
 	};
-var enemy = {
+var enemy2 = {
 	element: enemy_bug,
 	x:3,
 	y:1,
 	};
-var enemy = {
+var enemy3 = {
 	element: enemy_bug,
 	x:0,
 	y:8,
 	};
-var enemy = {
+var enemy4 = {
 	element: enemy_bug,
 	x:2,
 	y:6,
 	};
-var enemy = {
+var enemy5 = {
 	element: enemy_bug,
 	x:7,
 	y:5,
 	};
-var enemy = {
+var enemy6 = {
 	element: enemy_bug,
 	x:7,
 	y:2,
 	};
-var enemy = {
+var enemy7 = {
 	element: enemy_bug,
 	x:9,
 	y:6,
 	};
-var enemy = {
+var enemy8 = {
 	element: enemy_bug,
 	x:9,
 	y:8,
 	};
-var enemy = {
+var enemy9 = {
 	element: enemy_bug,
 	x:7,
 	y:8,

@@ -40,7 +40,7 @@ function key_pressed_down(event) {
 //Started with parrallel subproblems in locating the protagonist (given by original code) and finding the enemy (user created code). 
 
 function getoutofmyBubble () {
-	if (protagonist.x ===   enemy.x && protagonist.y ===   enemy.y) {
+	if (protagonist.x ===   enemy1.x && protagonist.y ===   enemy1.y) {
 		window.alert("Game Over");
 	}
 	
