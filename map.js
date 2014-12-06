@@ -21,7 +21,7 @@ var occupants = [
     [key, undefined, key, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, , enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
-    [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [undefined, undefined, undefined, key, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, key, undefined, undefined, enemy_bug, undefined, undefined, undefined, undefined], 
     [key, undefined, enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
