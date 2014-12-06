@@ -24,7 +24,7 @@ var occupants = [
     [undefined, undefined, undefined, key, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, key, undefined, undefined, undefined],
     [undefined, undefined, key, undefined, undefined, enemy_bug, undefined, enemy_bug, undefined, undefined], 
-    [key, undefined, enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [key, undefined, enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, enemy_bug],
     [undefined, undefined, undefined, undefined, undefined, key, undefined, undefined, undefined, undefined],
     [enemy_bug, undefined, undefined, key, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, key, undefined, undefined, undefined, undefined, chest_closed],
@@ -63,6 +63,11 @@ var enemy = {
 	element: enemy_bug,
 	x:7,
 	y:2,
+	};
+var enemy = {
+	element: enemy_bug,
+	x:9,
+	y:6,
 	};
 // Map utilities
 
