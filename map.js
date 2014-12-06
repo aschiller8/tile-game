@@ -23,7 +23,7 @@ var occupants = [
     [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, key, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, key, undefined, undefined, undefined],
-    [undefined, undefined, key, undefined, undefined, enemy_bug, undefined, undefined, undefined, undefined], 
+    [undefined, undefined, key, undefined, undefined, enemy_bug, undefined, enemy_bug, undefined, undefined], 
     [key, undefined, enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [enemy_bug, undefined, undefined, key, undefined, undefined, undefined, undefined, undefined, undefined],
@@ -54,7 +54,11 @@ var enemy = {
 	x:2,
 	y:6,
 	};
-
+var enemy = {
+	element: enemy_bug,
+	x:7,
+	y:5,
+	};
 // Map utilities
 
 function get_terrain_cell(x, y) {
