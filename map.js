@@ -79,6 +79,11 @@ var enemy9 = {
 	x:7,
 	y:8,
 	};
+var chest_closed = {
+	element: chest_closed,
+	x:9,
+	y:9,
+	};
 // Map utilities
 
 function get_terrain_cell(x, y) {

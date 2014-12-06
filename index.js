@@ -2,7 +2,7 @@
 /*jslint browser: true*/ // This line tells jsLint that the code will run in a browser.
 
 // Interaction
-window.alert("The object of this game is to retrieve all the keys and return to the chest as fast as possible without encountering an enemy ladybug! Time yourself to see if you can beat your record!")
+window.alert("The object of this game is to retrieve all the keys and go to the chest as fast as possible without encountering an enemy ladybug! Time yourself to see if you can beat your record!")
 
 var left_arrow_key = 37;
 var up_arrow_key = 38;
@@ -67,6 +67,9 @@ function getoutofmyBubble () {
 	}
 	if (protagonist.x ===   enemy9.x && protagonist.y ===   enemy9.y) {
 		window.alert("Game Over. Refresh borwser and try again!");
+	}
+	if (protagonist.x ===   chest_closed.x && protagonist.y ===   chest_closed.y) {
+		window.alert("Congratulations, you survived! But did you bring me all of my keys?");
 	}
 	
 }
