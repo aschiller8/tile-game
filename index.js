@@ -43,6 +43,12 @@ function getoutofmyBubble () {
 	if (protagonist.x ===   enemy1.x && protagonist.y ===   enemy1.y) {
 		window.alert("Game Over");
 	}
+	if (protagonist.x ===   enemy2.x && protagonist.y ===   enemy2.y) {
+		window.alert("Game Over");
+	}
+	if (protagonist.x ===   enemy3.x && protagonist.y ===   enemy3.y) {
+		window.alert("Game Over");
+	}
 	
 }
 
