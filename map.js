@@ -27,7 +27,7 @@ var occupants = [
     [key, undefined, enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, enemy_bug],
     [undefined, undefined, undefined, undefined, undefined, key, undefined, undefined, undefined, undefined],
     [enemy_bug, undefined, undefined, key, undefined, undefined, undefined, enemy_bug, undefined, enemy_bug],
-    [undefined, undefined, undefined, undefined, key, undefined, undefined, undefined, undefined, chest_closed],
+    [undefined, undefined, undefined, undefined, key, undefined, undefined, key, undefined, chest_closed],
 ];
 var protagonist = {
     element: cat_girl,
