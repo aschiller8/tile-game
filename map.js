@@ -20,7 +20,7 @@ var terrain = [
 var occupants = [
     [key, undefined, key, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, , enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
-    [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, enemy_bug, undefined, undefined],
     [undefined, undefined, undefined, key, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, key, undefined, undefined, undefined],
     [undefined, undefined, key, undefined, undefined, enemy_bug, undefined, enemy_bug, undefined, undefined], 
@@ -58,6 +58,11 @@ var enemy = {
 	element: enemy_bug,
 	x:7,
 	y:5,
+	};
+var enemy = {
+	element: enemy_bug,
+	x:7,
+	y:2,
 	};
 // Map utilities
 
