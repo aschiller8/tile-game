@@ -19,7 +19,7 @@ var terrain = [
 ];
 var occupants = [
     [key, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
-    [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [undefined, undefined, enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
@@ -41,7 +41,7 @@ var enemy = {
 	};
 var enemy = {
 	element: enemy_bug,
-	x:0,
+	x:3,
 	y:1,
 	};
 
