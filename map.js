@@ -26,7 +26,7 @@ var occupants = [
     [undefined, undefined, undefined, undefined, undefined, enemy_bug, undefined, undefined, undefined, undefined], 
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
-    [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [enemy_bug, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, chest_closed],
 ];
 var protagonist = {
@@ -43,6 +43,11 @@ var enemy = {
 	element: enemy_bug,
 	x:3,
 	y:1,
+	};
+var enemy = {
+	element: enemy_bug,
+	x:0,
+	y:8,
 	};
 
 // Map utilities
